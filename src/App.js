@@ -17,6 +17,7 @@ function App () {
         <div className="App">
             <h1>Working</h1>
             <Button onClick={onClose}>Закрыть</Button>
+            <h2>Как дела хехех</h2>
         </div>
     );
 }

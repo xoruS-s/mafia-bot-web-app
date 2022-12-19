@@ -13,7 +13,7 @@ const SelectPlayers = () => {
             <select>
                 {count_players.map((count_player) => (
                     <div>
-                        <option value={count_player}></option>
+                        <option value={count_player}>{count_player}</option>
                     </div>
                 ))}
             </select>
